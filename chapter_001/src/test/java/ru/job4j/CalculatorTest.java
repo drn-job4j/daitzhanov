@@ -16,7 +16,7 @@ import static org.junit.Assert.assertThat;
 	  * Test add.
 	  */
 	  @Test
-	  public void whenAddFirstToSecondTheGetResult() {
+	  public void whenAddFirstToSecondThenGetResult() {
 		  Calculator calc = new Calculator();
 		  calc.add(1.0, 1.0);
 		  double result = calc.getResult();
@@ -50,6 +50,6 @@ import static org.junit.Assert.assertThat;
 			 Calculator calc = new Calculator();
 			 calc.div(2.0, 2.0);
 			 double result = calc.getResult();
-			 assertThat(result, is(3.0));
+			 assertThat(result, is(1.0));
 		 }
  }
