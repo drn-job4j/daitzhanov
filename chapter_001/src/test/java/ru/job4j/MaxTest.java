@@ -17,8 +17,7 @@ public class MaxTest {
 	@Test
 	public void whenFirstOverSecondThenGetResult() {
 		Max max = new Max();
-		max.max(2, 1);
-		int result = max.getMaxNumber();
+		int result = max.max(2, 1);
 		assertThat(result, is(2));
 	}
 	/**
@@ -27,8 +26,7 @@ public class MaxTest {
 	@Test
 	public void whenSecondOverFirstThenGetResult() {
 		Max max = new Max();
-		max.max(1, 2);
-		int result = max.getMaxNumber();
+		int result = max.max(1, 2);
 		assertThat(result, is(2));
 	}
 }
